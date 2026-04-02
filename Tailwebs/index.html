@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eGov Foundation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="animations.css" />
+</head>
+<body id="top">
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container-fluid px-4 px-lg-5">
+    <div class="d-flex justify-content-end align-items-center gap-4">
+      <a href="#" class="topbar-link">Events</a>
+      <a href="#" class="topbar-link">Contact us</a>
+      <div class="lang-sel d-flex align-items-center gap-1">
+        <img src="https://flagcdn.com/w20/gb.png" alt="ENG" width="20" height="14" />
+        <span>ENG</span>
+        <i class="bi bi-chevron-down" style="font-size:0.65rem;"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg egov-navbar sticky-top" id="mainNavbar">
+  <div class="container px-4 px-lg-5">
+    <a class="navbar-brand" href="#">
+      <div>
+        <div class="d-flex align-items-baseline">
+          <span class="logo-e">e</span><span class="logo-gov">GOV</span>
+        </div>
+        <div class="logo-sub">FOUNDATION</div>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About Us</a>
+          <ul class="dropdown-menu egov-dropdown">
+            <li><a class="dropdown-item" href="#">Our Story</a></li>
+            <li><a class="dropdown-item" href="#">Team</a></li>
+            <li><a class="dropdown-item" href="#">Careers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Areas of Work</a>
+          <ul class="dropdown-menu egov-dropdown">
+            <li><a class="dropdown-item" href="#">Urban Governance</a></li>
+            <li><a class="dropdown-item" href="#">Rural Development</a></li>
+            <li><a class="dropdown-item" href="#">Health</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Products &amp; Solutions</a>
+          <ul class="dropdown-menu egov-dropdown">
+            <li><a class="dropdown-item" href="#">DIGIT Platform</a></li>
+            <li><a class="dropdown-item" href="#">Health Stack</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Platform</a>
+          <ul class="dropdown-menu egov-dropdown">
+            <li><a class="dropdown-item" href="#">Architecture</a></li>
+            <li><a class="dropdown-item" href="#">Open Source</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Ecosystem</a>
+          <ul class="dropdown-menu egov-dropdown">
+            <li><a class="dropdown-item" href="#">Partners</a></li>
+            <li><a class="dropdown-item" href="#">Community</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Resources</a>
+          <ul class="dropdown-menu egov-dropdown">
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">Reports</a></li>
+            <li><a class="dropdown-item" href="#">Case Studies</a></li>
+          </ul>
+        </li>
+        <li class="nav-item ms-lg-2">
+          <a class="nav-link" href="#" style="font-size:1.05rem !important; padding:8px 6px !important;"><i class="bi bi-search"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-section" id="hero">
+  <div class="hero-wave-bg">
+    <svg viewBox="0 0 800 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#e8f8fa;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#b2e8ef;stop-opacity:0.6" />
+        </linearGradient>
+      </defs>
+      <path class="wave-path" d="M 200 0 Q 350 80 500 100 Q 650 140 800 60 L 800 600 L 200 600 Q 100 500 80 350 Q 60 180 180 60 Z" fill="url(#waveGrad)" />
+      <path class="wave-path-2" d="M 280 0 Q 420 60 580 90 Q 720 130 800 70 L 800 600 L 260 600 Q 160 520 140 370 Q 120 200 240 70 Z" fill="rgba(61,189,198,0.08)" />
+    </svg>
+  </div>
+  <div class="container px-4 px-lg-5">
+    <div class="row align-items-center" style="min-height:72vh;">
+      <div class="col-lg-6 col-xl-5 py-4">
+        <h1 class="hero-heading anim-up" style="animation-delay:0.2s">
+          20 years of digital transformation in public service delivery
+        </h1>
+        <h2 class="hero-bold anim-up" style="animation-delay:0.35s; margin: 12px 0;">It's possible.</h2>
+        <p class="hero-desc anim-up" style="animation-delay:0.5s; margin: 20px 0 30px;">
+          Catalysts. Ecosystem enablers. Problem Solvers.<br />
+          At eGov, we're driven by the power of open digital infrastructure and ecosystems to enable governments deliver accessible, inclusive and transparent services to every citizen.
+        </p>
+        <div class="d-flex flex-wrap gap-3 anim-up" style="animation-delay:0.65s;">
+          <a href="#" class="btn-primary-eg">Our Approach</a>
+          <a href="#" class="btn-outline-eg">Our Impact</a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-7 d-flex justify-content-end align-items-end mt-4 mt-lg-0 anim-left" style="animation-delay:0.3s; padding-right:0;">
+        <div class="hero-img-wrapper" style="max-width:640px;">
+          <img src="https://placehold.co/720x520/d4f1f4/1a2e5a?text=Citizens+Image" alt="Citizens using digital services" class="hero-img img-fluid" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS HERO SECTION -->
+<section class="stats-hero">
+  <div class="stats-content">
+    <div class="container px-4 px-lg-5">
+      <div class="row align-items-start">
+        <div class="col-lg-8 col-md-7 mt-3 reveal">
+          <div class="stat-big-num">1,000,000,100+</div>
+        </div>
+        <div class="col-lg-4 col-md-5 reveal" style="transition-delay:0.15s;">
+          <p class="stat-big-desc">Citizens availing public services through eGov's Digital Public Goods (DPG)</p>
+        </div>
+      </div>
+      <div class="row stats-row gx-5 reveal ps-0 ps-lg-5" style="transition-delay:0.3s;">
+        <div class="col-auto mb-3">
+          <div class="stat-val">1.1 Billion+</div>
+          <div class="stat-lbl">Public services delivered</div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="stat-val">50+ partners</div>
+          <div class="stat-lbl">From technology, governments and NGOs</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TABS SECTION -->
+<section class="tabs-wrapper section-gap" id="approach">
+  <div class="container px-4 px-lg-5">
+    <div class="tabs-card reveal">
+      <div class="row g-4 align-items-start">
+        <div class="col-12 col-md-5">
+          <h2 class="tab-heading">Big problems need<br><strong>bold approaches</strong></h2>
+          <div class="mt-3">
+            <button class="area-btn active" data-area="health">Public Health</button>
+            <button class="area-btn" data-area="finance">Public Finance</button>
+            <button class="area-btn" data-area="governance">Local Governance</button>
+            <button class="area-btn" data-area="water">Water &amp; Sanitation</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-7">
+          <div class="row g-3">
+            <div class="col-sm-12 col-md-6">
+              <div class="tab-card show" id="area-health-1">
+                <div class="stat-num">210+</div>
+                <div class="stat-sub">cities LIVE with 10BedICU across India</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="120" height="90" viewBox="0 0 120 90" fill="none">
+                    <rect x="10" y="45" width="100" height="14" rx="4" fill="rgba(255,255,255,0.35)"/>
+                    <rect x="14" y="59" width="8" height="18" rx="2" fill="rgba(255,255,255,0.4)"/>
+                    <rect x="98" y="59" width="8" height="18" rx="2" fill="rgba(255,255,255,0.4)"/>
+                    <rect x="10" y="38" width="20" height="9" rx="3" fill="rgba(255,255,255,0.5)"/>
+                    <ellipse cx="25" cy="44" rx="12" ry="5" fill="rgba(255,255,255,0.6)"/>
+                    <line x1="95" y1="10" x2="95" y2="60" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                    <ellipse cx="95" cy="10" rx="10" ry="2" fill="rgba(255,255,255,0.4)"/>
+                    <rect x="60" y="20" width="26" height="18" rx="3" fill="rgba(255,255,255,0.25)"/>
+                    <polyline points="62,29 66,29 68,22 70,36 72,29 76,29 78,25 80,29 84,29" stroke="rgba(255,255,255,0.8)" stroke-width="1.5" fill="none"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tab-card" id="area-finance-1">
+                <div class="stat-num">500+</div>
+                <div class="stat-sub">Cities with digital financial systems</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="110" height="90" viewBox="0 0 110 90" fill="none">
+                    <rect x="15" y="25" width="80" height="50" rx="6" fill="rgba(255,255,255,0.25)"/>
+                    <rect x="15" y="25" width="80" height="14" rx="6" fill="rgba(255,255,255,0.4)"/>
+                    <circle cx="28" cy="32" r="4" fill="rgba(255,255,255,0.7)"/>
+                    <circle cx="80" cy="60" r="14" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+                    <text x="76" y="65" fill="rgba(255,255,255,0.9)" font-size="12" font-weight="bold">₹</text>
+                  </svg>
+                </div>
+              </div>
+              <div class="tab-card" id="area-governance-1">
+                <div class="stat-num">350+</div>
+                <div class="stat-sub">Local bodies using e-governance</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="110" height="90" viewBox="0 0 110 90" fill="none">
+                    <rect x="25" y="30" width="60" height="45" rx="4" fill="rgba(255,255,255,0.25)"/>
+                    <rect x="30" y="25" width="50" height="10" rx="3" fill="rgba(255,255,255,0.4)"/>
+                    <rect x="40" y="44" width="30" height="3" rx="1.5" fill="rgba(255,255,255,0.5)"/>
+                    <rect x="35" y="52" width="40" height="3" rx="1.5" fill="rgba(255,255,255,0.4)"/>
+                    <circle cx="55" cy="34" r="5" fill="rgba(255,255,255,0.6)"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tab-card" id="area-water-1">
+                <div class="stat-num">180+</div>
+                <div class="stat-sub">Cities with smart water management</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="110" height="90" viewBox="0 0 110 90" fill="none">
+                    <path d="M55 15 Q70 35 70 55 A15 15 0 0 1 40 55 Q40 35 55 15Z" fill="rgba(255,255,255,0.45)"/>
+                    <rect x="30" y="68" width="50" height="6" rx="3" fill="rgba(255,255,255,0.35)"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="tab-card tab-card-alt show" id="area-health-2">
+                <div class="stat-num">2 Bn</div>
+                <div class="stat-sub">COVID-19 vaccination certificates issued</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="120" height="100" viewBox="0 0 120 100" fill="none">
+                    <rect x="10" y="20" width="60" height="70" rx="5" fill="rgba(255,255,255,0.3)"/>
+                    <rect x="18" y="30" width="44" height="3" rx="1.5" fill="rgba(255,255,255,0.6)"/>
+                    <rect x="18" y="38" width="36" height="2.5" rx="1.2" fill="rgba(255,255,255,0.45)"/>
+                    <circle cx="40" cy="72" r="10" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+                    <path d="M36 72 L39 75 L45 68" stroke="rgba(255,255,255,0.9)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <rect x="72" y="38" width="10" height="36" rx="3" fill="rgba(255,255,255,0.45)" transform="rotate(-30 72 38)"/>
+                    <line x1="100" y1="30" x2="106" y2="22" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tab-card tab-card-alt" id="area-finance-2">
+                <div class="stat-num">₹10K Cr</div>
+                <div class="stat-sub">Revenue collected via digital platforms</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="110" height="90" viewBox="0 0 110 90" fill="none">
+                    <rect x="20" y="50" width="12" height="30" rx="2" fill="rgba(255,255,255,0.5)"/>
+                    <rect x="38" y="35" width="12" height="45" rx="2" fill="rgba(255,255,255,0.5)"/>
+                    <rect x="56" y="42" width="12" height="38" rx="2" fill="rgba(255,255,255,0.5)"/>
+                    <rect x="74" y="25" width="12" height="55" rx="2" fill="rgba(255,255,255,0.6)"/>
+                    <polyline points="26,50 44,35 62,42 80,25" stroke="rgba(255,255,255,0.9)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tab-card tab-card-alt" id="area-governance-2">
+                <div class="stat-num">1.2 Cr</div>
+                <div class="stat-sub">Certificates issued online annually</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="110" height="90" viewBox="0 0 110 90" fill="none">
+                    <rect x="20" y="22" width="70" height="55" rx="5" fill="rgba(255,255,255,0.2)"/>
+                    <rect x="28" y="32" width="54" height="4" rx="2" fill="rgba(255,255,255,0.55)"/>
+                    <circle cx="78" cy="65" r="12" fill="rgba(255,255,255,0.25)" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+                    <path d="M74 65 L77 68 L83 61" stroke="rgba(255,255,255,0.9)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="tab-card tab-card-alt" id="area-water-2">
+                <div class="stat-num">90%</div>
+                <div class="stat-sub">Reduction in manual monitoring effort</div>
+                <button class="read-btn">Read More</button>
+                <div class="card-illus">
+                  <svg width="110" height="90" viewBox="0 0 110 90" fill="none">
+                    <circle cx="55" cy="50" r="28" stroke="rgba(255,255,255,0.4)" stroke-width="3" fill="none"/>
+                    <path d="M55 22 A28 28 0 0 1 83 50" stroke="rgba(255,255,255,0.85)" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    <text x="43" y="55" fill="rgba(255,255,255,0.9)" font-size="14" font-weight="bold">90%</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUSTAIN SECTION -->
+<section class="sustain-section section-gap" id="sustain">
+  <div class="container px-4 px-lg-5">
+    <h2 class="reveal">
+      20 years of reimagining for citizens and<br>
+      <strong>sustaining change</strong>
+    </h2>
+    <p class="sustain-desc reveal" style="transition-delay:0.1s;">
+      Technology is powerful, but is only one piece of the puzzle, when it comes to enhancing the quality of life for every citizen. To have sustainable impact at scale, the collective energy of local networks to solve local problems needs to be tapped into. Our partners &amp; networks bring this collective energy to life.
+    </p>
+    <div class="video-row reveal" style="transition-delay:0.2s;">
+      <div class="video-card">
+        <div class="card-photo">
+          <svg viewBox="0 0 310 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="310" height="200" fill="#c0c8d0"/>
+            <ellipse cx="220" cy="80" rx="60" ry="66" fill="#8a959f"/>
+            <path d="M110,200 Q110,126 220,112 Q330,126 330,200 Z" fill="#8a959f"/>
+          </svg>
+        </div>
+        <div class="card-label">
+          <span class="label-text">Leveraging technology for sustainable development</span>
+        </div>
+        <button class="play-btn" aria-label="Play video">
+          <svg viewBox="0 0 24 24"><polygon points="6,3 20,12 6,21"/></svg>
+        </button>
+      </div>
+      <div class="video-card">
+        <div class="card-photo">
+          <svg viewBox="0 0 310 200" xmlns="http://www.w3.org/2000/svg">
+            <rect width="310" height="200" fill="#b4bcc4"/>
+            <ellipse cx="215" cy="76" rx="56" ry="62" fill="#7e8a94"/>
+            <path d="M115,200 Q115,124 215,110 Q315,124 315,200 Z" fill="#7e8a94"/>
+          </svg>
+        </div>
+        <div class="card-label">
+          <span class="label-text">Digitising civic services for better life</span>
+        </div>
+        <button class="play-btn" aria-label="Play video">
+          <svg viewBox="0 0 24 24"><polygon points="6,3 20,12 6,21"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mt-5 reveal" style="transition-delay:0.3s;">
+      <button class="about-btn">About Us</button>
+    </div>
+  </div>
+</section>
+
+<!-- DIGIT PLATFORM SECTION -->
+<section class="digit-banner" id="platform">
+  <div class="digit-blob"></div>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-md-6 digit-content reveal">
+          <div class="mb-3">
+            <div class="digit-logo-dots">
+              <span class="dot-c dot-o"></span>
+              <span class="dot-c dot-g"></span>
+              <span class="dot-c dot-b"></span>
+              <span class="dot-c dot-r"></span>
+              <span class="digit-logo-text ms-2">DIGIT</span>
+            </div>
+            <span class="digit-by">by eGov Foundation</span>
+          </div>
+          <p class="digit-tag">Our open source</p>
+          <h2 class="digit-title">technology-for-good<br>platform</h2>
+          <p class="digit-desc">
+            DIGIT, short for Digital Infrastructure for Governance, Inclusion and Transformation is eGov's open-source platform with reusable building blocks and shared data registries that can be used to build solutions in multiple sectors.
+          </p>
+          <a href="#" class="btn-explore">Explore the platform</a>
+        </div>
+        <div class="col-md-6 digit-img-col reveal" style="transition-delay:0.2s;">
+          <img src="https://placehold.co/560x400/1a3a8f/c8d8f0?text=Platform+Visual" alt="DIGIT Platform" class="img-fluid" style="border-radius:12px 12px 0 0; filter:grayscale(60%) contrast(1.05); mix-blend-mode:luminosity;" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARDS SECTION -->
+<section class="section-gap" id="resources">
+  <div class="cards-section section-gap-cards">
+    <h2 class="reveal">Latest at <strong>eGov</strong></h2>
+    <div class="tabs-row reveal" style="transition-delay:0.1s;">
+      <button class="tab-btn-c active" data-tab="whats-new">What's New</button>
+      <button class="tab-btn-c" data-tab="articles">Articles</button>
+      <button class="tab-btn-c" data-tab="whitepapers">Whitepapers</button>
+      <button class="tab-btn-c" data-tab="case-studies">Case Studies</button>
+      <button class="tab-btn-c" data-tab="strategy-papers">Strategy Papers</button>
+      <button class="tab-btn-c" data-tab="news-media">News &amp; Media</button>
+      <button class="tab-btn-c" data-tab="videos">Videos</button>
+      <button class="tab-btn-c" data-tab="newsletter">Newsletter</button>
+    </div>
+    <div class="cards-grid" id="cardsGrid"></div>
+    <div class="mt-4 reveal">
+      <button class="see-all-btn" id="seeAllBtn">See all</button>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- SUPPORTERS SECTION -->
+<section class="section-gap" id="supporters">
+  <div class="supporters-section">
+    <h2 class="reveal">Our <strong>Supporters</strong></h2>
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="logo-item"><svg viewBox="0 0 120 50"><circle cx="30" cy="25" r="14" fill="none" stroke="#666" stroke-width="4"/><circle cx="56" cy="25" r="14" fill="none" stroke="#666" stroke-width="4"/><text x="43" y="46" font-family="sans-serif" font-size="8" fill="#666" text-anchor="middle" letter-spacing="1">CO-DEVELOP</text></svg></div>
+        <div class="logo-item"><svg viewBox="0 0 160 50"><text x="0" y="18" font-family="Georgia,serif" font-size="11" fill="#555" font-weight="700">BILL&amp;MELINDA</text><text x="0" y="32" font-family="Georgia,serif" font-size="13" fill="#555" font-weight="700">GATES</text><text x="60" y="32" font-family="Georgia,serif" font-size="9" fill="#555" font-style="italic">foundation</text></svg></div>
+        <div class="logo-item"><svg viewBox="0 0 140 50"><text x="70" y="30" font-family="Arial,sans-serif" font-size="16" fill="#666" font-weight="700" text-anchor="middle" letter-spacing="3">TATA TRUSTS</text></svg></div>
+        <div class="logo-item"><svg viewBox="0 0 150 50"><text x="78" y="20" font-family="Arial,sans-serif" font-size="11" fill="#666" font-weight="700">THE</text><text x="78" y="33" font-family="Arial,sans-serif" font-size="11" fill="#666" font-weight="700">GLOBAL</text><text x="78" y="46" font-family="Arial,sans-serif" font-size="11" fill="#666" font-weight="700">FUND</text></svg></div>
+        <div class="logo-item"><svg viewBox="0 0 170 50"><text x="58" y="22" font-family="Arial,sans-serif" font-size="12" fill="#666" font-weight="700" letter-spacing="1">NANDAN</text><text x="58" y="36" font-family="Arial,sans-serif" font-size="12" fill="#666" font-weight="700" letter-spacing="1">NILEKANI</text><text x="58" y="46" font-family="Arial,sans-serif" font-size="7.5" fill="#999" letter-spacing="0.5">Philanthropies</text></svg></div>
+        <div class="logo-item"><svg viewBox="0 0 130 50"><rect x="5" y="10" width="35" height="30" rx="3" fill="none" stroke="#666" stroke-width="3"/><text x="22" y="30" font-family="Arial,sans-serif" font-size="13" fill="#666" font-weight="700" text-anchor="middle">UN</text><text x="55" y="22" font-family="Arial,sans-serif" font-size="10" fill="#666" font-weight="600">UNITED</text><text x="55" y="34" font-family="Arial,sans-serif" font-size="10" fill="#666" font-weight="600">NATIONS</text></svg></div>
+        <div class="logo-item"><svg viewBox="0 0 140 50"><circle cx="22" cy="25" r="16" fill="none" stroke="#666" stroke-width="3"/><line x1="22" y1="9" x2="22" y2="41" stroke="#666" stroke-width="2"/><line x1="6" y1="25" x2="38" y2="25" stroke="#666" stroke-width="2"/><text x="50" y="28" font-family="Arial,sans-serif" font-size="11" fill="#666" font-weight="700">WORLD BANK</text></svg></div>
+        <div class="logo-item"><svg viewBox="0 0 130 50"><text x="65" y="20" font-family="Georgia,serif" font-size="13" fill="#666" font-weight="700" text-anchor="middle" letter-spacing="1">OMIDYAR</text><text x="65" y="36" font-family="Georgia,serif" font-size="10" fill="#888" text-anchor="middle" letter-spacing="0.5">NETWORK</text></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-main">
+    <div class="container px-4 px-lg-5">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="mb-1">
+            <span class="f-logo-e">e</span><span class="f-logo-gov">GOV</span>
+          </div>
+          <span class="f-logo-sub">Foundation</span>
+          <p>Catalysing digital transformation in public service delivery at speed &amp; scale.</p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Useful Links</h3>
+          <div class="links-grid">
+            <div>
+              <a href="#">Home</a>
+              <a href="#">Our Impact</a>
+              <a href="#">DIGIT Sandbox</a>
+            </div>
+            <div>
+              <a href="#">Our People</a>
+              <a href="#">Financials</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h3>Subscribe Now</h3>
+          <p>Receive regular updates of our monthly newsletter DOT – in your inbox.</p>
+          <div class="email-form">
+            <input type="email" placeholder="Enter Your Email" />
+            <button type="button" aria-label="Subscribe"><i class="fas fa-envelope"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container-fluid px-4 px-lg-5 d-flex align-items-center justify-content-between flex-wrap gap-2">
+      <span class="copy">©2024. eGov. All Rights Reserved.</span>
+      <div class="bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+  <i class="bi bi-chevron-up"></i>
+</button>
+<script src="main.js"></script>"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
