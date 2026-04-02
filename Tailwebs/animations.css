@@ -1,11 +1,4 @@
-/* ============================================================
-   eGov Foundation — animations.css
-   All keyframes, entrance animations, hover effects & transitions
-   ============================================================ */
- 
-/* ─────────────────────────────────────────
-   KEYFRAMES
-───────────────────────────────────────── */
+
  
 @keyframes fadeUp {
   from {
@@ -70,9 +63,7 @@
   100% { box-shadow: 0 0 0 0 rgba(61,189,198,0); }
 }
  
-/* ─────────────────────────────────────────
-   ENTRANCE ANIMATION CLASSES
-───────────────────────────────────────── */
+
  
 .animate-fade-up {
   opacity: 0;
@@ -89,9 +80,7 @@
   animation: fadeIn 0.5s ease forwards;
 }
  
-/* ─────────────────────────────────────────
-   WAVE BACKGROUND ANIMATION
-───────────────────────────────────────── */
+
  
 .wave-path-1 {
   animation: waveFloat2 7s ease-in-out infinite;
@@ -103,25 +92,19 @@
   transform-origin: center;
 }
  
-/* ─────────────────────────────────────────
-   BIRD ANIMATION
-───────────────────────────────────────── */
+
  
 .bird-group {
   animation: birdFloat 6s ease-in-out infinite;
 }
  
-/* ─────────────────────────────────────────
-   LOGO ANIMATION
-───────────────────────────────────────── */
+
  
 .navbar-brand {
   animation: logoReveal 0.5s ease 0.05s both;
 }
  
-/* ─────────────────────────────────────────
-   NAV LINKS STAGGERED ENTRANCE
-───────────────────────────────────────── */
+
  
 .egov-navbar .navbar-nav .nav-item {
   animation: navLinkSlide 0.4s ease both;
@@ -135,10 +118,7 @@
 .egov-navbar .navbar-nav .nav-item:nth-child(6) { animation-delay: 0.35s; }
 .egov-navbar .navbar-nav .nav-item:nth-child(7) { animation-delay: 0.40s; }
  
-/* ─────────────────────────────────────────
-   BUTTON HOVER & ACTIVE EFFECTS
-───────────────────────────────────────── */
- 
+
 .btn-hero-primary {
   position: relative;
   overflow: hidden;
@@ -161,7 +141,6 @@
   transform: translateY(0) scale(0.97);
 }
  
-/* Pulse on CTA primary button (one-time after page load) */
 .btn-hero-primary.pulse-once {
   animation: pulseGlow 1.5s ease 1.5s 2;
 }
@@ -170,9 +149,7 @@
   transform: translateY(0) scale(0.97);
 }
  
-/* ─────────────────────────────────────────
-   HERO IMAGE PARALLAX HOVER
-───────────────────────────────────────── */
+
  
 .hero-img-wrapper {
   transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -182,9 +159,7 @@
   transform: scale(1.015) translateY(-4px);
 }
  
-/* ─────────────────────────────────────────
-   SCROLL REVEAL UTILITY (via JS class toggle)
-───────────────────────────────────────── */
+x
  
 .reveal {
   opacity: 0;
@@ -197,17 +172,13 @@
   transform: translateY(0);
 }
  
-/* ─────────────────────────────────────────
-   NAVBAR SCROLL SHRINK
-───────────────────────────────────────── */
+
  
 .egov-navbar {
   transition: padding 0.3s ease, box-shadow 0.3s ease;
 }
  
-/* ─────────────────────────────────────────
-   DROPDOWN HOVER UNDERLINE
-───────────────────────────────────────── */
+
  
 .egov-navbar .nav-link {
   position: relative;
